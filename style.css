@@ -323,7 +323,12 @@ h1.type1,h1.type2,h1.type3 {
 }
 
  @media screen and (max-width: 768px) {
+     main{
 
+     }
+    header{
+
+    }
      .brand{
          grid-template-columns:1fr;
      }
@@ -335,6 +340,13 @@ h1.type1,h1.type2,h1.type3 {
          font-size:0.7rem
      }
      nav ul{
+         grid-template-columns:1fr
          width:60vw
+     }
+     .logoLrg{
+         width:200px;
+     }
+     article{
+         width:100%;
      }
  }
